@@ -17,12 +17,7 @@ function App() {
         >
           Learn React
         </a>
-        
-	<video id=example-video width=600 height=300 muted autoplay="muted" class="video-js vjs-default-skin" controls> </video>
 
-	<!-- <script src="video.js"></script> -->
-	<link href="https://unpkg.com/video.js/dist/video-js.min.css" rel="stylesheet">
-	
       </header>
     </div>
   );
