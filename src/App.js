@@ -17,22 +17,28 @@ function App() {
         >
           Learn React
         </a>
+        <a href='linkhref.html' id='mylink'>click me</a>
+
+        <script type="text/javascript">
+
+        var myLink = document.getElementById('mylink');
+
+        myLink.onclick = function(){
+
+            var script = document.createElement("script");
+            script.type = "text/javascript";
+            script.src = "fetch_stream.js."; 
+            document.getElementsByTagName("head")[0].appendChild(script);
+            return false;
+
+        }
+
+
+        </script>
 
       </header>
     </div>
   );
 }
-
-var foo = function(){
-  var button = document.createElement('button');
-  button.innerHTML = 'click me';
-  button.onclick = function(){
-    alert('here be dragons');return false;
-  };
-  // where do we want to have the button to appear?
-  // you can append it to another element just by doing something like
-  // document.getElementById('foobutton').appendChild(button);
-  document.body.appendChild(button);
-};
 
 export default App;
