@@ -11,19 +11,13 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="fetch_stream.js"
           target="_blank"
           rel="noopener noreferrer"
         >
           Learn React
         </a>
-        var button = document.createElement('button');
-        button.innerHTML = 'click me';
-        button.onclick = function(){
-          alert('here be dragons')
-        };
         
-        document.body.appendChild(button);
 
       </header>
     </div>
