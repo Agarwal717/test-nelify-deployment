@@ -20,7 +20,7 @@ function App() {
         var button = document.createElement('button');
         button.innerHTML = 'click me';
         button.onclick = function(){
-          alert('here be dragons');
+          alert('here be dragons')
         };
         // where do we want to have the button to appear?
         // you can append it to another element just by doing something like
