@@ -11,23 +11,7 @@
 <script src="https://unpkg.com/videojs‐contrib‐dash/dist/videojs‐dash.js"></script>
 <a href='linkhref.html' id='mylink'>click me</a>
 
-<script type="text/javascript">
-
-var myLink = document.getElementById('mylink');
-
-myLink.onclick = function(){
-
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src = "fetch_stream.js."; 
-    document.getElementsByTagName("head")[0].appendChild(script);
-    return false;
-
-}
-<button onclick="read_stream()">Call the function</button>
-
-
-</script>
+<input type = "button" onclick = "read_stream()" value = "Display"> 
 <script>
 var player = videojs('example-video');
 player.src({ src: 'https://content.jwplatform.com/manifests/yp34SRmf.m3u8', type: 'application/x-mpegURL'});
