@@ -11,13 +11,13 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="fetch_stream.js"
+          href="test.html"
           target="_blank"
           rel="noopener noreferrer"
         >
           Learn React
         </a>
-        
+
 
       </header>
     </div>
